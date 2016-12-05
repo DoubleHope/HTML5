@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0;}
+body { 
+	font-size:16px; 
+	border-top:5px solid #F60; 
+	font:"微软雅黑"; 
+	background-color:#F7F7F7;
+	}
+a{ text-decoration:none; color:#333;}
+.main{ 
+	height:0; 
+	display:block; 
+	clear:both;  
+	display:inline-block; 
+	display:block;
+	}
+
+body h1 ,h2 { 
+	font-size:18px; 
+	color:#333; 
+	font-weight:bold;
+	}
+li{ 
+	list-style:none; 
+	margin:30px auto;
+	}
+
+
+a:hover{ color:#f60;}
+
+/*首页*/
+.header{ 
+	width:1200px; 
+	margin-left:20px auto; 
+	overflow:hidden;
+	}
+.header h1{ 
+	float:left; 
+	margin-right:300px; 
+	padding:30px 60px;
+	}
+.header li{ 
+	font-size:16px; 
+	font-weight:bold; 
+	float:left; 
+	margin-right:50px; 
+	line-height:62px;
+	}
+.header a:hover{
+	 color:#F90;
+	 }
+.img{ 
+	width:100%; 
+	height:461px;
+	}
+.bg_image {  
+	background-image:url(../images/8_06.gif); 
+	background-repeat:no-repeat; height:461px;
+	}
+	
+	
+/*关于我们*/
+.our{ 
+	padding:30px 25px; 
+	border-bottom:1px solid #CCC; 
+	margin:10px 60px;
+	}
+.our p{ 
+	text-indent:2em; 
+	line-height:2em; 
+	padding:15px 0; 
+	text-align:justify;
+	}
+.our img{ 
+	float:right; 
+	margin-left:35px;
+	}
+	
+	
+/*新闻*/
+.main { 
+	width:1200px; 
+	margin:20px auto; 
+	}
+.News { 
+	width:763px; 
+	border-right:1px solid #CCC; 
+	float:left; margin:20px 5px; 
+	margin-right:10px;
+	padding-right:10px;
+	}
+.News img { 
+	float:left; 
+	margin-right:5px; 
+	padding-right:10px;
+	}
+.News p{ 
+	line-height:2em; 
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow:ellipsis; 
+	font-size:14px;
+	}
+.News h3{ 
+	font-size:14px; 
+	color:#333;
+	}
+.News li{ 
+	border-bottom:1px dashed #CCCCCC;
+	 padding:20px 0; 
+	 margin:5px 0;
+	 }
+.News li a:hover{ 
+	color:#F60;
+	text-decoration:underline;
+	}
+.News li h3:hover{ 
+	color:#F33;
+	}
+	
+	
+/*合作伙伴*/
+.partners { 
+	width:402px; 
+	float:right;
+	}
+.partners h2{ 
+	padding:20px 10px;
+	}
+.partners img{ 
+	padding:5px 0;
+	}
+
+/*页尾样式*/
+.footer { 
+	width:100%; 
+	min-width:1200px; 
+	text-align:center; 
+	background-color:#414141; 
+	color:#FFF; 
+	padding:20px 0; 
+	overflow:hidden;
+	}
+.footer p{ 
+	font-size:14px; 
+	line-height:2em;
+	}
+.footer a{ 
+	color:#fff;
+	}
+.footer a:hover{ 
+	color:#F60;
+	}
